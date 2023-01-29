@@ -5,7 +5,7 @@ export default function PrivatRoute() {
   const isLogin = useAuth();
 
   if (!isLogin) {
-    return <Navigate to="/contacts"/>;
+    return <Navigate to="/register"/>;
   }
   return <Outlet />;
 }

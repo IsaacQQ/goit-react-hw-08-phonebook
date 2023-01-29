@@ -15,7 +15,7 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));
 
 const UserRoutes = () => {
   return (
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<Loader/>}>
       <Routes>
         <Route element={<PublicRoute />}>
           <Route path="/register" element={<RegisterPage />} />
@@ -24,7 +24,7 @@ const UserRoutes = () => {
         <Route element={<PrivateRoute />}>
           <Route path="/contacts" element={<MyContactsPage />} />
         </Route>
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="/" element={<NotFoundPage />} />
         <Route path="/home" element={<HomePage />} />
       </Routes>
     </Suspense>

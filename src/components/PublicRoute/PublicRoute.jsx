@@ -5,7 +5,7 @@ export default function PublicRoute() {
   const isLogin = useAuth();
 
   if (isLogin) {
-    return <Navigate to="goit-react-hw-08-phonebook/contacts"/>;
+    return <Navigate to="/contacts"/>;
   }
   return <Outlet />;
 }
