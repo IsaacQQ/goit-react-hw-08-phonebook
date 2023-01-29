@@ -11,7 +11,7 @@ const MyContactsPage = () => {
   return (
     <div>
       {/* <h1>My contacts page</h1> */}
-      <Contacts />
+      <Contacts to="/contacts"/>
     </div>
   );
 };
