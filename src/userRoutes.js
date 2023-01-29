@@ -18,11 +18,11 @@ const UserRoutes = () => {
     <Suspense fallback={<Loader/>}>
       <Routes>
         <Route element={<PublicRoute />}>
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="goit-react-hw-08-phonebook/register" element={<RegisterPage />} />
+          <Route path="goit-react-hw-08-phonebook/login" element={<LoginPage />} />
         </Route>
         <Route element={<PrivateRoute />}>
-          <Route path="/contacts" element={<MyContactsPage />} />
+          <Route path="goit-react-hw-08-phonebook/contacts" element={<MyContactsPage />} />
         </Route>
         <Route path="" element={<NotFoundPage />} />
         <Route path="/*" element={<HomePage />} />

@@ -31,7 +31,7 @@ const Navbar = () => {
               letterSpacing: '.3rem',
             }}
           >
-            <NavigationLink to="/home">
+            <NavigationLink to="goit-react-hw-08-phonebook/home">
               <HomeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 10 }} />
             </NavigationLink>
           </Typography>

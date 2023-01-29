@@ -5,7 +5,7 @@ export default function PrivatRoute() {
   const isLogin = useAuth();
 
   if (!isLogin) {
-    return <Navigate to="/register"/>;
+    return <Navigate to="goit-react-hw-08-phonebook/register"/>;
   }
   return <Outlet />;
 }

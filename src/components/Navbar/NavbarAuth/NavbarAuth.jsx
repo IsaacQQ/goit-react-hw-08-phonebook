@@ -12,8 +12,8 @@ export default function NavbarAuth() {
         divider={<Divider orientation="vertical" flexItem />}
         alignItems="center"
       >
-        <NavigationLink to="/register">Register</NavigationLink>
-        <NavigationLink to="/login">Log in</NavigationLink>
+        <NavigationLink to="goit-react-hw-08-phonebook/register">Register</NavigationLink>
+        <NavigationLink to="goit-react-hw-08-phonebook/login">Log in</NavigationLink>
       </Stack>
     </div>
   );

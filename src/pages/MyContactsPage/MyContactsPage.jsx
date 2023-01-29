@@ -11,7 +11,7 @@ const MyContactsPage = () => {
   return (
     <div>
       {/* <h1>My contacts page</h1> */}
-      <Contacts to="/contacts"/>
+      <Contacts to="goit-react-hw-08-phonebook/contacts"/>
     </div>
   );
 };

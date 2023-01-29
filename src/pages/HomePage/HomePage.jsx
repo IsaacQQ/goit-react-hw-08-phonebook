@@ -32,12 +32,12 @@ const HomePage = () => {
       >
         {!isLogin ? (
           <>
-            <Link to="/register">To register page</Link>
+            <Link to="goit-react-hw-08-phonebook/register">To register page</Link>
             <span>or</span>
-            <Link to="/login">To login page</Link>
+            <Link to="goit-react-hw-08-phonebook/login">To login page</Link>
           </>
         ) : (
-          <Link to="/contacts">My contacts</Link>
+          <Link to="goit-react-hw-08-phonebook/contacts">My contacts</Link>
         )}
       </Stack>
     </Box>
